@@ -4,5 +4,8 @@
 
 <p align="left">
     Projek Akhir Mata Kuliah Pemrograman Web <br>
-    Kelompok 6
+    Kelompok 6:
+    1. Yohanes Putra P. Muwa Dae
+    2. Nadiyah Hana Mufidah
+    3. Nabila Syahnas Sesarani
 </p>
