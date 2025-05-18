@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="public/images/logo" alt="Logo Suwarna Education" width="300">
+    <img src="public/images/logo.png" alt="Logo Suwarna Education" width="300">
 </p>
 
 <p align="left">
