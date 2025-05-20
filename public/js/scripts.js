@@ -108,12 +108,55 @@ $(document).ready(function () {
     $('html, body').animate({ scrollTop: 0 }, 700);
   });
 
-  // Optional: Fixed menu (aktifkan jika dibutuhkan)
-  // $(window).on('scroll', function () {
-  //   if ($(window).scrollTop() > 50) {
-  //     $('.top-navbar').addClass('fixed-menu');
-  //   } else {
-  //     $('.top-navbar').removeClass('fixed-menu');
-  //   }
-  // });
+  
+  $('#scroll-to-top').on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, 700);
+  });
+
+  // ── FORM PENDAFTARAN: Dropdown Paket → Kelas ────────────────
+  $('#form-paket').on('change', function () {
+    const paket = $(this).val();
+    let options = '<option value="" disabled selected>Pilih Kelas</option>';
+
+    switch (paket) {
+      case 'SD':
+        options += `
+          <option value="Kelas 4 SD">Kelas 4 SD</option>
+          <option value="Kelas 5 SD">Kelas 5 SD</option>
+          <option value="Kelas 6 SD">Kelas 6 SD</option>
+        `;
+        break;
+      case 'SMP':
+        options += `
+          <option value="Kelas 7 SMP">Kelas 7 SMP</option>
+          <option value="Kelas 8 SMP">Kelas 8 SMP</option>
+          <option value="Kelas 9 SMP">Kelas 9 SMP</option>
+        `;
+        break;
+      case 'SMA':
+        options += `
+          <option value="Kelas 10 SMA">Kelas 10 SMA</option>
+          <option value="Kelas 11 SMA">Kelas 11 SMA</option>
+          <option value="Kelas 12 SMA">Kelas 12 SMA</option>
+        `;
+        break;
+      case 'UTBK':
+        options += `
+          <option value="Intensif UTBK Fullday">Intensif UTBK Fullday</option>
+          <option value="Intensif UTBK Supercamp">Intensif UTBK Supercamp</option>
+        `;
+        break;
+      case 'LAINNYA':
+        options += `
+          <option value="Ujian Nasional">Ujian Nasional</option>
+          <option value="Asesmen Kompetensi Minimum">Asesmen Kompetensi Minimum</option>
+          <option value="Kelas Olimpiade">Kelas Olimpiade</option>
+          <option value="Paket Kedinasan">Paket Kedinasan</option>
+        `;
+        break;
+    }
+
+    $('#form-kelas').html(options);
+  });
 });

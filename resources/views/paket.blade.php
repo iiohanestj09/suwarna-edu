@@ -39,7 +39,7 @@
 						<li class="nav-item"><a class="nav-link" href="{{ route('galeri') }}">Galeri</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-            <li><a class="hover-btn-new log blue" href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank"><span>Daftar Sekarang</span></a>
+            <li><a class="hover-btn-new log blue" href="{{ route('daftar') }}" target="_blank"><span>Daftar Sekarang</span></a>
             </li>
           </ul>
 				</div>
@@ -199,7 +199,7 @@
       </a>
     </div>
     <div class="testi-table-daftar wow zoomIn">
-      <a href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank" class="hover-btn-new daftar-sekarang"><span>Daftar Sekarang</span></a>
+      <a href="{{ route('daftar') }}" target="_blank" class="hover-btn-new daftar-sekarang"><span>Daftar Sekarang</span></a>
     </div>
   </div>
 

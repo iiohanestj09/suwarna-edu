@@ -39,7 +39,7 @@
 						<li class="nav-item"><a class="nav-link" href="{{ route('galeri') }}">Galeri</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-            <li><a class="hover-btn-new log blue" href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank"><span>Daftar Sekarang</span></a>
+            <li><a class="hover-btn-new log blue" href="{{ route('daftar') }}" target="_blank"><span>Daftar Sekarang</span></a>
             </li>
           </ul>
 				</div>
@@ -66,7 +66,7 @@
 										<p class="lead">Sedang mencari tempat bimbingan belajar yang berkualitas untuk Putra Putri Anda? <br> Come Join Us!</p>
                     <a href="https://wa.me/628563129756" class="hover-btn-new wow fadeInDown"><span>Hubungi Kami</span></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
+                    <a href="{{ route('daftar') }}" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
 									</div>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 										<p class="lead" data-animation="animated fadeInLeft">Banyak Program dan Paket yang disusun oleh mentor berpengalaman dan terpercaya. <br>Kami siap mendampingi Putra Putri Anda meraih masa depan gemilang melalui pendidikan berkualitas.</p>
                     <a href="https://wa.me/628563129756" class="hover-btn-new wow fadeInDown"><span>Hubungi Kami</span></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
+                    <a href="{{ route('daftar') }}" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
 									</div>
 								</div>
 							</div>           
@@ -104,7 +104,7 @@
 										<p class="lead" data-animation="animated fadeInLeft">Kembangkan potensi akademis dengan bimbingan belajar kami! <br>Bersama kami, belajar jadi lebih mudah dan menyenangkan.</p>
                     <a href="https://wa.me/628563129756" class="hover-btn-new wow fadeInDown"><span>Hubungi Kami</span></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://forms.gle/ehNdd4CxUFZRZXq38" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
+                    <a href="{{ route('daftar') }}" target="_blank" class="hover-btn-new wow fadeInDown"><span>Daftar Sekarang</span></a>
 									</div>
 								</div>
 							</div>           

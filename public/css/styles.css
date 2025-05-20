@@ -1495,14 +1495,14 @@ FOOTER
   height: 100%;
 }
 
-.footer-links-soi{
+.footer-links-soi {
 	margin: 0px;
 	padding: 0px;
 }
-.footer-links-soi li{
+.footer-links-soi li {
 	display: inline-block;
 }
-.footer-links-soi li a{
+.footer-links-soi li a {
 	background: #ffffff;
 	color: #333333;
 	width: 32px;
@@ -1514,15 +1514,58 @@ FOOTER
 	border-radius: 2px;
 }
 
-.footer-links-soi li a:hover{
+.footer-links-soi li a:hover {
 	background: #0D92F4;
 }
 
-.footer-links-soi li a:hover i{
+.footer-links-soi li a:hover i {
 	color: #ffffff;
 	transform: rotateY(360deg);
 }
 
-.footer-links-soi li a i{
+.footer-links-soi li a i {
 	transition: all 0.6s ease;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------
+Pendaftaran
+-----------------------------------------------------------------------------------------------------------------*/
+
+.form-pendaftaran {
+  background-color: white;
+  margin: 100px 200px;
+  border: 1.5px solid rgb(26, 26, 26);
+  border-radius: 10px;
+}
+
+.form-pendaftaran .container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+}
+
+h1.title-form{
+  font-size: 35px;
+  font-weight: 500 !important;
+}
+
+h1.title-form strong{
+  color: #cc0000;
+}
+
+.form-pendaftaran p {
+  margin-bottom: 0px !important;
+}
+
+.tombol-submit {
+  color: white;
+  background-color: #f13e3b;
+  width: 450px;         
+  max-width: 90%;       
+  display: inline-block;
+}
+
+.tombol-submit:hover {
+  background-color: #b81b1b;
 }
